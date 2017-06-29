@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>流量专区</title>
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1, minimum-scale=1">
+    <!--ios safari浏览器自动识别电话号码和邮箱-->
+    <meta content="telephone=no" name="format-detection">
+    <meta content="email=no" name="format-detection">
+    <link rel="stylesheet" type="text/css" href="../static/css/common/mreset.css" />
+    <link rel="stylesheet" type="text/css" href="../static/css/mine.css" />
+</head>
+
+<body>
+    <div class="header">
+        <div class="nav-header">
+            <div class="left-icon">
+                <a href="javascript:history.go(-1);">
+                    <img class="back" src="../static/images/back_icon.png" />
+                </a>
+            </div>
+            <div class="title-con">流量专区</div>
+            <div class="right-con"></div>
+        </div>
+    </div>
+    <div class="contanier">
+      <div class="mine-con"> 
+          <div class="m-card flex package-list">
+              <img class="package-img" alt="流量可选包" src="../static/images/f1.jpg">
+              <div class="item">
+                <h2>流量可选包</h2>
+                <p>适合用户：动感地带 神州行 全球通</p>
+                <p>生效时间：立即</p>
+              </div>
+          </div> 
+          <div class="m-card flex package-list">
+              <img class="package-img" alt="流量直充" src="../static/images/f2.jpg">
+              <div class="item">
+                <h2>流量直充</h2>
+                <p>适合用户：动感地带 神州行 全球通</p>
+                <p>生效时间：立即</p>
+              </div>
+          </div>
+      </div>
+    </div>
+</body>
+<script src="../static/js/lib/jquery-1.11.2.min.js"></script>
+<script src="../static/js/common.js"></script>
+</html>

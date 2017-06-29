@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>404</title>
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1, minimum-scale=1">
+    <!--ios safari浏览器自动识别电话号码和邮箱-->
+    <meta content="telephone=no" name="format-detection">
+    <meta content="email=no" name="format-detection">
+    <link rel="stylesheet" type="text/css" href="static/css/common/mreset.css" />
+    <link rel="stylesheet" type="text/css" href="static/css/login.css" />
+</head>
+
+<body>
+<div>
+    <!--头部start-->
+    <div class="header">
+        <div class="nav-header">
+            <div class="left-icon">
+                <a href="javascript:history.go(-1);">
+                    <img class="back" src="static/images/back_icon.png" />
+                </a>
+            </div>
+            <div class="title-con">提示</div>
+            <div class="right-con"></div>
+        </div>
+    </div>
+    <!--头部end-->
+    <div class="showtip-contanier">
+        <div class="lgon-info-con">
+            <div class="lgon-info-img">
+                <img src="static/images/404.jpg" alt="">
+            </div>
+            <!--<p class="lgon-info-text">-->
+                <!--<i class="ok-icon"></i>-->
+                <!--<span>恭喜您！</span>-->
+            <!--</p>-->
+            <p class="lgon-info-msg">
+                抱歉，您遇到了404页面！
+            </p>
+        </div>
+        <div class="lgon-info-btn">
+            <a href="index_seller.html">返回首页</a>
+        </div>
+    </div>
+</div>
+</body>
+<script src="static/js/lib/jquery-1.11.2.min.js"></script>
+<script src="static/js/common.js"></script>
+</html>

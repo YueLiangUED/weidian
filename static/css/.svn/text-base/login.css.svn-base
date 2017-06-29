@@ -1,0 +1,57 @@
+/*登陆页*/
+.login-con{padding: 1rem 1rem 0 1rem;box-sizing: border-box;}
+.telphone,.username,.password,.verificationcode,.confirmpd{border: 1px solid #fff;border-radius: 4px;margin-bottom: 0.39rem;padding: 0.2rem 0.1rem;
+    display: -webkit-box;display: -moz-box;display: -ms-flexbox;display: -webkit-flex;display: flex;position: relative;}
+.check-success i.check-icon,.check-error i.check-icon,.check-warning i.check-icon{display:block;position: absolute;right: -0.52rem;top:0.26rem;
+width: 0.32rem;height: 0.32rem;}
+.check-text{display: none;}
+.check-success p.check-text,.check-error p.check-text,.check-warning p.check-text{display: block;width: 100%;position: absolute; bottom: -0.39rem;
+    font-size: 0.28rem;}
+.check-error p.check-text{color: #e44b4b;}
+.check-warning p.check-text{color: #f57e23;}
+.check-success{border-color: #4db9d0;}
+.check-error{border-color: #ff7c7c;}
+.check-warning{border-color: #f4a467;}
+.check-success i.check-icon{background: url("../images/icn-success.png") no-repeat center;background-size: 100% 100%;}
+.check-error i.check-icon{background: url("../images/icn-error.png") no-repeat center;background-size: 100% 100%;}
+.check-warning i.check-icon{background: url("../images/icn-warning.png") no-repeat center;background-size: 100% 100%;}
+.telphone label,.username label,.password label,.confirmpd label{display: block;width: 0.8rem;border-right: 1px solid #dbdbdb;}
+.username label{background: url("../images/login-icon01.png") no-repeat center center;background-size: 0.45rem 0.45rem;}
+.password label{background: url("../images/login-icon02.png") no-repeat center center;background-size: 0.45rem 0.45rem;}
+.confirmpd label{background: url("../images/login-icon03.png") no-repeat center center;background-size: 0.45rem 0.45rem;}
+.telphone label{background: url("../images/tel.png") no-repeat center center;background-size: 0.45rem 0.45rem;}
+.telphone input,.username input,.password input,.verificationcode input,.confirmpd input{height: 0.45rem;line-height: 0.45rem;-webkit-box-flex: 1; -moz-box-flex: 1;
+    -webkit-flex: 1;-ms-flex: 1;flex: 1;padding: 0 0.2rem;background-color: transparent;font-size: 0.28rem;color: #666;}
+.verificationcode .sendcode{width: 1.89rem;height: 0.65rem;text-align: center;line-height: 0.65rem;background-color: #ffffff;
+    border-radius: 4px;box-shadow: 1px 1px 3px #d9d9d9;position: absolute;top: 0.10rem;right: 0.13rem;font-size: 0.28rem;color: #666;}
+.login-bt{display:block;width: 100%;height: 0.87rem;text-align:center;line-height: 0.87rem;background-color: #4db9d0;border-radius: 4px;color: #fff;
+font-size: 0.32rem;border: none;outline: none;box-shadow: 1px 1px 4px #9e9e9e;margin-bottom: 0.45rem;margin-top: .7rem;}
+.login-bt:hover,.login-bt:active{color: #fff;}
+.links a{font-size: 0.28rem;color: #666;}
+
+
+/*提示信息页*/
+.showtip-contanier{margin-top: 1.71rem;}
+.lgon-info-con{margin:0 auto;margin-top: .63rem;width: 5.52rem;padding-bottom:.55rem;background-color: #fefcfc;border-radius: .1rem;
+    -moz-box-shadow:0px 6px 13px rgba(0, 0, 0, .21);
+    -webkit-box-shadow:0px 6px 13px rgba(0, 0, 0, .21);
+    box-shadow:0px 6px 13px rgba(0, 0, 0, .21)
+}
+.lgon-info-con .lgon-info-img{padding: .56rem .34rem .43rem .48rem;box-sizing: border-box;}
+.lgon-info-con .lgon-info-text{display:table;line-height: .61rem;margin: 0 auto;}
+.lgon-info-con .lgon-info-text .ok-icon{display: table-cell;height:.63rem;width:.63rem;background: url(../images/ok_icon.jpg) no-repeat;background-size: 100% 100%;}
+.lgon-info-con .lgon-info-text span{font-weight:bold;font-size: .36rem;color:#666;margin-left: .2rem;}
+.lgon-info-con .lgon-info-msg{margin-top:.15rem;padding: 0 .7rem;font-size: .36rem;line-height: .6rem;color:#666;text-align: center;}
+.lgon-info-con .lgon-info-text .error-icon{display: table-cell;height:.68rem;width:.67rem;background: url(../images/error_icon.png) no-repeat;background-size: 100% 100%;}
+.lgon-info-btn{-moz-box-shadow:0px 6px 13px rgba(0, 0, 0, .21);
+    -webkit-box-shadow:0px 6px 13px rgba(0, 0, 0, .21);
+    box-shadow:0px 6px 13px rgba(0, 0, 0, .21);text-align: center;
+    width: 5.52rem; background-color: #4db9d0;height: .88rem;border-radius: .1rem;margin: 0 auto;margin-top:.32rem;
+}
+.lgon-info-btn:last-child{margin-bottom: 1rem;}
+.lgon-info-btn a{height:100%;width:100%;color: #fff;font-size: .3rem;line-height: .88rem;display: block;}
+.lgon-info-btn.cancel-btn{background-color: #fefcfc;}
+.lgon-info-btn.cancel-btn a{color: #666;}
+
+.link-register{font-size: 0.3rem;color: #666;text-align: center;margin-top: 6rem;}
+

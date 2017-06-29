@@ -1,0 +1,65 @@
+/*********首页 start********/
+.contanier{padding-top: 1.42rem;}
+.w-nav-banner{width: 100%;max-width: 750px;position: fixed;top: 0.82rem;height:.6rem;z-index:999;line-height:.6rem;padding:0 .12rem;-webkit-overflow-scrolling: touch;
+-webkit-scroll-snap-type: wandatory;
+overflow: auto;background: #fff;}
+.w-nav-banner a{ display: block;height: .6rem;margin: 0 .28rem;text-align: center;border-bottom:2px solid #fff;
+-webkit-flex-shrink: 0;-ms-flex-negative: 0;flex-shrink: 0;-webkit-box-sizing: border-box;
+box-sizing: border-box;position: relative;font-size: .3rem;font-weight: lighter;}
+.w-nav-banner a:last-child{padding-right: .56rem;}
+.w-nav-banner a.active{border-bottom:2px solid #69a4de;color:#69a4de;}
+/*轮播*/
+.swiper-container{width: 100%;height: 3.68rem;}
+.swiper-slide{text-align: center;font-size: 18px;background: indianred;line-height: 4rem;}
+.swiper-slide img{height: 100%;width: 100%;}
+.swiper-pagination{text-align: right;left: auto !important;right: .4rem;}
+.swiper-pagination-bullet{background: #fff;opacity: 1;width: .12rem;height: .12rem;}
+.swiper-pagination-bullet-active{background: #69a6df;}
+/*充话费*/
+.m-paybill{height: 1.4rem;width: 100%;background: #fff;margin-top: .12rem;padding: .41rem .15rem .41rem .25rem;
+box-sizing: border-box;}
+.m-paybill .m-pay-text{width: 1.06rem;height: 0.62rem;background-position: -0.01rem -0.01rem;}
+.m-paybill .m-pay-input{margin-left: .28rem;-webkit-box-flex: 1; -moz-box-flex: 1; -webkit-flex: 1;-ms-flex: 1;flex: 1;}
+.m-paybill .m-pay-input .phone-icon{font-size: .4rem;top:.09rem;left:.1rem;color:#69a4de;}
+.m-paybill .m-pay-input input{height:.6rem;width:100%;line-height:.4rem;font-size:.3rem;border: 1px solid #bababa;
+border-radius: 1px;padding:.16rem .1rem .12rem .46rem;box-sizing: border-box;color: #2e2e2e;}
+.m-paybill .m-pay-submit a{display: block;height: .6rem;width: 1.3rem;margin-left:.1rem;line-height: .6rem;color: #69a4de;
+border: 1px solid #69a4de;border-radius: 1px;text-align: center;font-size: .3rem;box-sizing: border-box;}
+/*广告楼层*/
+.m-floor{background: #fff;margin-top: .14rem;}
+.m-floor-title{height:.77rem;padding: 0 1.79rem;box-sizing: border-box;}
+.m-middle-line{-webkit-box-flex: 1; -moz-box-flex: 1; -webkit-flex: 1;-ms-flex: 1;flex: 1;}
+.m-middle-line .line{height: 1px;width: 100%;background: #cfcfcf;}
+.m-middle-line .downbox{height: .38rem;width: 100%;}
+.m-floor-title .m-texttitle{width: 1.43rem;height: .76rem;margin: 0 .25rem;}
+.m-more {color: #6ca6df;right: .25rem;top: 0.18rem;}
+.m-more  i{font-size: .3rem;}
+.package .left-banner{width: 4.06rem;}
+.package .right-banner{width: 3.42rem;margin-left: .02rem;}
+.flow .half-banner{width: 3.74rem;}
+.flow .half-banner:last-child{margin-left: 0.02rem;}
+.card .left-banner{width: 3.42rem;}
+.card .right-banner{width: 4.06rem;margin-left: .02rem;}
+.life .m-texttitle{background-position: -0.01rem -0.63rem;}
+.package .m-texttitle{background-position: -0.01rem -1.40rem;}
+.flow .m-texttitle{background-position: -0.01rem -2.96rem;}
+.card .m-texttitle{background-position: -0.01rem -2.17rem;}
+.terminal .m-texttitle{background-position: -0.01rem -3.72rem;}
+/*产品列表*/
+.m-product-list{background: #f3f3f3;margin-top: .01rem;padding-left: -0.01rem}
+.m-product-list li{width: 3.73rem;float: left;background:#fff;margin: .01rem .01rem;}
+.m-product-detail{margin-top: .1rem;padding-bottom: .38rem;}
+.m-product-title{text-align: center;font-size: .26rem;color: #606060;white-space:nowrap; overflow:hidden;
+ text-overflow:ellipsis;max-width: 80%;margin: 0 auto;font-weight: lighter;}
+.m-product-price{font-size: .26rem;color:#e50276;text-align: center;margin-top: .16rem;white-space:nowrap;
+ overflow:hidden; text-overflow:ellipsis;max-width: 80%;margin: 0 auto;}
+/*浮动按钮*/
+.icon-menu-box{position: fixed;right: 0.14rem;bottom: 1.64rem;}
+.icon-menu{position: absolute;right: 0;bottom: 0;height: .8rem;width: .8rem;background: #eaeaea;opacity:.6;border-radius:50%;border: 1px solid #b2b2b2;padding:.16rem .12rem .16rem .10rem;box-sizing: border-box;}
+.icon-menu .choose-icon{display:block;width: .54rem;height: .48rem;background-position: -1.44rem -2.96rem;}
+.icon-menu .service-icon{display:block;width: .54rem;height: .48rem;background-position: -2.01rem -2.96rem;}
+.icon-menu .shop-icon{display:block;;width: .54rem;height: .48rem;background-position: -1.44rem -3.72rem;}
+.more{z-index: 999;}
+.service{z-index: 999;}
+/*.service,.shop{z-index: 998;opacity: 0;}*/
+/*********首页 end********/

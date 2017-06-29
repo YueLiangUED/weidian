@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>销量查询</title>
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1, minimum-scale=1">
+    <!--ios safari浏览器自动识别电话号码和邮箱-->
+    <meta content="telephone=no" name="format-detection">
+    <meta content="email=no" name="format-detection">
+    <link rel="stylesheet" type="text/css" href="../static/css/common/mreset.css" />
+    <link rel="stylesheet" type="text/css" href="../static/css/mine.css" />
+</head>
+
+<body>
+    <div class="header">
+        <div class="nav-header">
+            <div class="left-icon">
+                <a href="javascript:void(0);"><img src="../static/images/message.jpg"></a>
+                <i class="hot"></i>
+            </div>
+            <div class="title-con">销量查询</div>
+            <div class="right-con"></div>
+        </div>
+    </div>
+    <div class="contanier">
+        <div class="mine-con money-con sales-con">
+            <div class="m-card base-info">
+                <div class="brif">
+                    <label class="total pos-relative">7380
+                        <span class="pos-absolute sales-tip">较昨日 <i class="up">30%</i>
+                        <!--下降-->
+                        <!--<i class="down">30%</i>-->
+                        </span>
+                        </label>
+                    <p>今日销量（单）</p>
+                </div>
+                <div class="total-info flex">
+                    <div class="total-info-item item">
+                        <p class="No">4735</p>
+                        <p>昨日（单）</p>
+                    </div>
+                    <div class="total-info-item item">
+                        <p class="No">4738000</p>
+                        <p>本月（单）</p>
+                    </div>
+                </div>
+            </div>
+            <div class="m-card money-table sale-table">
+                <p class="title pos-relative">当月订单明细
+                    <select class="fr choose-time pos-absolute">
+                        <option>2017-06</option>
+                        <option>2017-05</option>
+                        <option>2017-04</option>
+                        <option>2017-03</option>
+                        <option>2017-02</option>
+                        <option>2017-01</option>
+                    </select>
+                </p>
+                <div class="lines"></div>
+                <div class="RP-body show">
+                    <div class="RP-table">
+                        <table border="0" cellspacing="0" cellpadding="0">
+                            <tbody>
+                                <tr>
+                                    <th class="orderBytype">业务类型</th>
+                                    <th class="orderBysales">销量<em class="sort"></em></th>
+                                </tr>
+                                <tr class="blue">
+                                    <td><span>总销量</span></td>
+                                    <td><span>236250</span></td>
+                                </tr>
+                                <tr>
+                                    <td><span>4G</span></td>
+                                    <td><span>120801</span></td>
+                                </tr>
+                                <tr>
+                                    <td><span>终端</span></td>
+                                    <td><span>120802</span></td>
+                                </tr>
+                                <tr>
+                                    <td><span>家宽</span></td>
+                                    <td><span>120803</span></td>
+                                </tr>
+                                <tr>
+                                    <td><span>订单</span></td>
+                                    <td><span>120804</span></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="m-card money-table sale-table">
+                <p class="title pos-relative">历史销售明细
+                    <select class="fr choose-time pos-absolute">
+                        <option>2017-06</option>
+                        <option>2017-05</option>
+                        <option>2017-04</option>
+                        <option>2017-03</option>
+                        <option>2017-02</option>
+                        <option>2017-01</option>
+                    </select>
+                </p>
+                <div class="lines"></div>
+                <ul class="flex business-sales-nav">
+                    <li class="item active"><a href="javascript:void(0);">号卡</a></li>
+                    <li class="item"><a href="javascript:void(0);">终端</a></li>
+                    <li class="item"><a href="javascript:void(0);">订单</a></li>
+                    <li class="item"><a href="javascript:void(0);">家宽</a></li>
+                </ul>
+                <div class="lines"></div>
+                <div class="RP-body show">
+                    <div class="RP-table">
+                        <table border="0" cellspacing="0" cellpadding="0">
+                            <tbody>
+                                <tr>
+                                    <th class="orderBytype">业务类型</th>
+                                    <th class="orderBysales">销量<em class="sort"></em></th>
+                                </tr>
+                                <tr>
+                                    <td><span>4G</span></td>
+                                    <td><span>120801</span></td>
+                                </tr>
+                                <tr>
+                                    <td><span>5元卡</span></td>
+                                    <td><span>120802</span></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="nav-footer">
+            <div class="nav-menu">
+                <a href="../index_seller.html">
+                    <i class="icons home-icon"></i>
+                    <span>首页</span>
+                </a>
+            </div>
+            <div class="nav-menu active">
+                <a href="../sales/sales.html">
+                    <i class="icons sales-icon"></i>
+                    <span>销量</span>
+                </a>
+            </div>
+            <div class="nav-menu">
+                <a href="../money/money.html">
+                    <i class="icons money-icon"></i>
+                    <span>酬金</span>
+                </a>
+            </div>
+            <!--<div class="nav-menu">-->
+                <!--<i class="icons policy-icon"></i>-->
+                <!--<span>政策消息</span>-->
+            <!--</div>-->
+            <div class="nav-menu">
+                <a href="../mine/mine.html">
+                    <i class="icons mine-icon"></i>
+                    <span>我的</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="../static/js/lib/jquery-1.11.2.min.js"></script>
+<script src="../static/js/common.js"></script>
+<script src="../static/js/sales.js"></script>
+
+</html>

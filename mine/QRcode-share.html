@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>分享二维码</title>
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1, minimum-scale=1">
+    <!--ios safari浏览器自动识别电话号码和邮箱-->
+    <meta content="telephone=no" name="format-detection">
+    <meta content="email=no" name="format-detection">
+    <link rel="stylesheet" type="text/css" href="../static/css/common/mreset.css" />
+    <link rel="stylesheet" type="text/css" href="../static/css/mine.css" />
+</head>
+
+<body>
+    <div class="header">
+        <div class="nav-header">
+            <div class="left-icon">
+                <a href="javascript:history.go(-1);">
+                    <img class="back" src="../static/images/back_icon.png" />
+                </a>
+            </div>
+            <div class="title-con">分享二维码</div>
+            <div class="right-con"></div>
+        </div>
+    </div>
+    <div class="contanier">
+        <div class="mine-con QRcode-share-con">
+           <div class="QRcode-share-con-img"></div>
+           <!--<img src="../static/images/QRcode.png" alt="">-->
+           <a href="javascript:void(0);" class="share-btn">分&nbsp;&nbsp;&nbsp;&nbsp;享</a>
+        </div>
+    </div>
+   <div class="mask-bg"></div>
+   <div class="share-pop-dialog">
+       <div class="share-way">
+           <div class="flex">
+               <a href="javascript:void(0);" class="item">
+                   <img src="../static/images/wx.png" alt="wx">
+                   <p>微信好友</p>
+               </a>
+                <a href="javascript:void(0);" class="item">
+                   <img src="../static/images/pyq.png" alt="wx">
+                   <p>微信朋友圈</p>
+               </a> 
+               <a href="javascript:void(0);" class="item">
+                   <img src="../static/images/wb.png" alt="wx">
+                   <p>新浪微博</p>
+               </a>
+           </div>
+            <div class="flex">
+              <a href="javascript:void(0);" class="item">
+                   <img src="../static/images/qq.png" alt="wx">
+                   <p>QQ好友</p>
+               </a>
+                <a href="javascript:void(0);" class="item">
+                   <img src="../static/images/qqkj.png" alt="wx">
+                   <p>QQ空间</p>
+               </a> 
+               <a href="javascript:void(0);" class="item">
+                   <img src="../static/images/fx.png" alt="wx">
+                   <p>飞信</p>
+               </a>
+           </div>
+       </div>
+       <div class="line"></div>
+       <a href="javascript:void(0);" class="cancel-btn">取消</a>
+   </div>
+</body>
+<script src="../static/js/lib/jquery-1.11.2.min.js"></script>
+<script src="../static/js/lib/jquery.qrcode.min.js"></script>
+<script src="../static/js/common.js"></script>
+<script src="../static/js/mine.js"></script>
+<script>
+    $(".QRcode-share-con-img").qrcode({
+        render	: "canvas",
+		text	: "http://www.baidu.com"
+	});	
+</script>
+</html>

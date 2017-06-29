@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>登录页</title>
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1, minimum-scale=1">
+    <!--ios safari浏览器自动识别电话号码和邮箱-->
+    <meta content="telephone=no" name="format-detection">
+    <meta content="email=no" name="format-detection">
+    <link rel="stylesheet" type="text/css" href="../static/css/common/mreset.css" />
+    <link rel="stylesheet" type="text/css" href="../static/css/login.css" />
+</head>
+
+<body>
+    <div class="header">
+        <div class="nav-header">
+            <div class="left-icon">
+                <a href="javascript:history.go(-1);">
+                    <img class="back" src="../static/images/back_icon.png" />
+                </a>
+            </div>
+            <div class="title-con">登陆</div>
+            <div class="right-con"></div>
+        </div>
+    </div>
+    <div class="contanier">
+        <div class="login-con">
+            <form>
+                <div class="username gradient2">
+                    <!--成功：.check-success 失败：.check-error 警告：.check-warning-->
+                    <i class="check-icon"></i>
+                    <!--<p class="check-text">两次输入密码不一致，请重新输入</p>-->
+                    <label><em class="icon"></em></label>
+                    <input type="text" placeholder="请输入用户名" />
+                </div>
+                <div class="verificationcode gradient2">
+                    <!--成功：.check-success 失败：.check-error 警告：.check-warning-->
+                    <i class="check-icon"></i>
+                    <p class="check-text"></p>
+                    <input type="text" placeholder="请输入短信验证码" />
+                    <a class="sendcode" id="btnSendCode" onclick="sendMessage();" href="javascript:void(0)">发送验证码</a>
+                </div>
+                <a class="login-bt" href="../sucess.html">登&nbsp;&nbsp;&nbsp;&nbsp;录</a>
+                <div class="clearfix links">
+                    <a class="fl" href="javascript:void(0);">我要开店</a>
+                    <a class="fr" href="resetPSW_step1.html">忘记密码</a>
+                </div>
+                <p class="link-register">还没有账号？去<a href="../register/register-step1.html">注册</a></p>
+            </form>
+        </div>
+    </div>
+</body>
+<script src="../static/js/lib/jquery-1.11.2.min.js"></script>
+<script src="../static/js/common.js"></script>
+<script src="../static/js/login.js"></script>
+</html>

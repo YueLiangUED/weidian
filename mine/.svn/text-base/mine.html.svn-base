@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>我的</title>
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1, minimum-scale=1">
+    <!--ios safari浏览器自动识别电话号码和邮箱-->
+    <meta content="telephone=no" name="format-detection">
+    <meta content="email=no" name="format-detection">
+    <link rel="stylesheet" type="text/css" href="../static/css/common/mreset.css" />
+    <link rel="stylesheet" type="text/css" href="../static/css/mine.css" />
+</head>
+
+<body>
+    <div class="header">
+        <div class="nav-header">
+            <div class="left-icon">
+                <a href="javascript:void(0);"><img src="../static/images/message.jpg"></a>
+                <i class="hot"></i>
+            </div>
+            <div class="title-con">我的</div>
+            <div class="right-con"></div>
+        </div>
+    </div>
+    <div class="contanier">
+        <div class="mine-con">
+            <div class="m-card base-info pos-relative">
+                <img src="../static/images/shop-banner.png" alt="">
+                <div class="brif">
+                    <img src="../static/images/login-header.png" alt="">
+                   <p>账户名称</p>
+                </div>
+                <a href="edit-info.html" class="edit-btn"><em></em></a>
+            </div>
+            <div class="total-info flex">
+                <div class="total-info-item item">
+                        <p class="No">234617</p>
+                        <p>本月销量（元）</p>
+                </div>
+                <div class="total-info-item item">
+                    <p class="No">8613455</p>
+                    <p>本月浏览量（次）</p>
+                </div>
+            </div>
+            <div class="m-card flex">
+                <p>推荐开店</p>
+                <a href="javascript:void(0);" class="next-arr"><em></em></a>
+            </div>
+            <div class="m-card flex">
+                <p>我的二维码</p>
+                <a href="QRcode-share.html" class="next-arr"><em></em></a>
+            </div>
+            <div class="m-card flex">
+                <p>修改密码</p>
+                <a href="../login/resetPSW_step1.html" class="next-arr"><em></em></a>
+            </div>
+            <a href="javascript:void(0);" class="m-card logOut-btn">退&nbsp;&nbsp;&nbsp;&nbsp;出</a>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="nav-footer">
+            <div class="nav-menu">
+                <a href="../index_seller.html">
+                    <i class="icons home-icon"></i>
+                    <span>首页</span>
+                </a>
+            </div>
+            <div class="nav-menu">
+                <a href="../sales/sales.html">
+                    <i class="icons sales-icon"></i>
+                    <span>销量</span>
+                </a>
+            </div>
+            <div class="nav-menu">
+                <a href="../money/money.html">
+                    <i class="icons money-icon"></i>
+                    <span>酬金</span>
+                </a>
+            </div>
+            <!--<div class="nav-menu">-->
+                <!--<a href="javascript:void(0);">-->
+                    <!--<i class="icons policy-icon"></i>-->
+                    <!--<span>政策消息</span>-->
+                <!--</a>-->
+            <!--</div>-->
+            <div class="nav-menu active">
+                <a href="mine/mine.html">
+                    <i class="icons mine-icon"></i>
+                    <span>我的</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="../static/js/lib/jquery-1.11.2.min.js"></script>
+<script src="../static/js/common.js"></script>
+<script src="../static/js/mine.js"></script>
+</html>
